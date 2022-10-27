@@ -88,4 +88,13 @@ A good model for the reducer is the [redux-notes example](https://fullstackopen.
 **Solution:**
 Implemented as instructed.
 
+## Exercise 6.2: unicafe revisited, step2
+**Task:**
+Now implement the actual functionality of the application.
+
+Note that since all the code is in the file index.js and you might need to manually reload the page after each change since the automatic reloading of the browser content does not always work for that file!
+
+**Solution:**
+Implemented in Exercise 1.
+
 
