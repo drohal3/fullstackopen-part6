@@ -126,3 +126,10 @@ If you haven't done so already, separate the creation of action-objects to actio
 
 **Solution:**
 Already done
+
+## Exercise 6.7: anecdotes, step5
+**Task:**
+Separate the creation of new anecdotes into its own component called AnecdoteForm. Move all logic for creating a new anecdote into this new component.
+
+**Solution:**
+AnecdoteForm separated into its own component 
