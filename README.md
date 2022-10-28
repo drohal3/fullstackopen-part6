@@ -133,3 +133,28 @@ Separate the creation of new anecdotes into its own component called AnecdoteFor
 
 **Solution:**
 AnecdoteForm separated into its own component 
+
+## Exercise 6.8: anecdotes, step6
+**Task:**
+Separate the rendering of the anecdote list into its own component called AnecdoteList. Move all logic related to voting for an anecdote to this new component.
+
+Now the App component should look like this:
+```
+import AnecdoteForm from './components/AnecdoteForm'
+import AnecdoteList from './components/AnecdoteList'
+
+const App = () => {
+return (
+<div>
+<h2>Anecdotes</h2>
+<AnecdoteForm />
+<AnecdoteList />
+</div>
+)
+}
+
+export default App
+```
+
+**Solution:**
+Created onw component for anecdote list.
