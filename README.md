@@ -103,3 +103,12 @@ Implement the functionality for voting anecdotes. The amount of votes must be sa
 
 **Solution:**
 Implemented as in the example exercise.
+
+## Exercise 6.4: anecdotes, step2
+**Task:**
+Implement the functionality for adding new anecdotes.
+
+You can keep the form uncontrolled, like we did [earlier](https://fullstackopen.com/en/part6/flux_architecture_and_redux#uncontrolled-form).
+
+**Solution:**
+Implemented as instructed
