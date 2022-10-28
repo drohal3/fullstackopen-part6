@@ -112,3 +112,10 @@ You can keep the form uncontrolled, like we did [earlier](https://fullstackopen.
 
 **Solution:**
 Implemented as instructed
+
+## Exercise 6.5: anecdotes, step3
+**Task:**
+Make sure that the anecdotes are ordered by the number of votes.
+
+**Solution:**
+Implemented as in one of the earlier exercises.
