@@ -119,3 +119,10 @@ Make sure that the anecdotes are ordered by the number of votes.
 
 **Solution:**
 Implemented as in one of the earlier exercises.
+
+## Exercise 6.6: anecdotes, step4
+**Task:**
+If you haven't done so already, separate the creation of action-objects to action creator-functions and place them in the src/reducers/anecdoteReducer.js file, so do like we have been doing since the chapter action creators.
+
+**Solution:**
+Already done
