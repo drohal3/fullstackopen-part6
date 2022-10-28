@@ -97,4 +97,9 @@ Note that since all the code is in the file index.js and you might need to manua
 **Solution:**
 Implemented in Exercise 1.
 
+## Exercise 6.3: anecdotes, step1
+**Task:**
+Implement the functionality for voting anecdotes. The amount of votes must be saved to a Redux-store.
 
+**Solution:**
+Implemented as in the example exercise.
