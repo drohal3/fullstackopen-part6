@@ -8,12 +8,15 @@ const initialState = {
 const notificationSlice = createSlice({
   name: 'notification',
   initialState,
-  reducers: {
+  reducers: { // not ideal solution, but for demonstration and practice good enough
     messageChange(state, action) {
       return {message: action.payload}
-    }
-  }
+    },
+    messageReset: () => {
+      return {message: null}
+    },
+  },
 })
 
-export const { messageChange } = notificationSlice.actions
+export const { messageChange, messageReset } = notificationSlice.actions
 export default notificationSlice.reducer

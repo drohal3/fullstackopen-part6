@@ -209,3 +209,12 @@ The application does not have to use the Notification component in an intelligen
 
 **Solution:**
 Solution refactored as instructed.
+
+## Exercise 6.11 Better anecdotes, step9
+**Task:**
+Extend the application so that it uses the Notification component to display a message for five seconds when the user votes for an anecdote or creates a new anecdote:
+It's recommended to create separate [action creators](https://redux-toolkit.js.org/api/createSlice#reducers) for setting and removing notifications.
+
+**Solution:**
+Notifications show/hide implemented.
+
