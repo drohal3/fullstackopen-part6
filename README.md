@@ -246,3 +246,10 @@ export default Filter
 ```
 
 **Solution:** Implemented as instructed.
+
+## Exercise 6.13 Anecdotes and the backend, step1
+**Task:**
+When the application launches, fetch the anecdotes from the backend implemented using json-server.
+
+**Solution:**
+Implemented as instructed.
