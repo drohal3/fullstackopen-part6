@@ -14,13 +14,16 @@ const asObject = (anecdote) => {
   }
 }
 
-const initialState = anecdotesAtStart.map(asObject)
+// const initialState = anecdotesAtStart.map(asObject)
 
 const anecdoteSlice = createSlice({
   name: 'anecdotes',
-  initialState,
+  initialState: [],
   reducers: {
-    setAnecdotes: (state, action) => action.payload,
+    setAnecdotes: (state, action) => {
+      console.log('setAnecdoted in reducer', action.payload)
+      return action.payload
+    },
     appendAnecdote: (state, action) => {
       state.push(action.payload)
     },

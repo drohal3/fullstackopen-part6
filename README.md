@@ -253,3 +253,10 @@ When the application launches, fetch the anecdotes from the backend implemented 
 
 **Solution:**
 Implemented as instructed.
+
+## Exercise 6.14 Anecdotes and the backend, step2
+**Task:**
+Modify the creation of new anecdotes, so that the anecdotes are stored in the backend.
+
+**Solution:**
+The task did not mention voting so at this point, only creation is modified to store anecdotes in backend.

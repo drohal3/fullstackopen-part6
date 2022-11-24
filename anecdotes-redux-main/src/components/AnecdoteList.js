@@ -20,7 +20,7 @@ const AnecdoteList = () => {
   const filter = useSelector(state => state.filter)
 
   return (
-    <>
+    <div>
       {[...anecdotes].filter(a => a.content.includes(filter)).sort((anecdote1, anecdote2) => anecdote2.votes - anecdote1.votes).map(anecdote =>
         <div key={anecdote.id}>
           <div>
@@ -32,7 +32,7 @@ const AnecdoteList = () => {
           </div>
         </div>
       )}
-    </>
+    </div>
   )
 }
 
