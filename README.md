@@ -218,3 +218,31 @@ It's recommended to create separate [action creators](https://redux-toolkit.js.o
 **Solution:**
 Notifications show/hide implemented.
 
+## Exercise 6.12* Better anecdotes, step10
+**Task:**
+Implement filtering for the anecdotes that are displayed to the user.
+
+Store the state of the filter in the redux store. It is recommended to create a new reducer and action creators for this purpose. Implement the reducer and action creators using the Redux Toolkit's createSlice function.
+
+Create a new Filter component for displaying the filter. You can use the following code as a template for the component:
+
+```
+const Filter = () => {
+  const handleChange = (event) => {
+    // input-field value is in variable event.target.value
+  }
+  const style = {
+    marginBottom: 10
+  }
+
+  return (
+    <div style={style}>
+      filter <input onChange={handleChange} />
+    </div>
+  )
+}
+
+export default Filter
+```
+
+**Solution:** Implemented as instructed.

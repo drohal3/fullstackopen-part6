@@ -17,9 +17,11 @@ const AnecdoteList = () => {
     }, 5000)
   }
 
+  const filter = useSelector(state => state.filter)
+
   return (
     <>
-      {[...anecdotes].sort((anecdote1, anecdote2) => anecdote2.votes - anecdote1.votes).map(anecdote =>
+      {[...anecdotes].filter(a => a.content.includes(filter)).sort((anecdote1, anecdote2) => anecdote2.votes - anecdote1.votes).map(anecdote =>
         <div key={anecdote.id}>
           <div>
             {anecdote.content}
