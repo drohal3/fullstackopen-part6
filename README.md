@@ -260,3 +260,10 @@ Modify the creation of new anecdotes, so that the anecdotes are stored in the ba
 
 **Solution:**
 The task did not mention voting so at this point, only creation is modified to store anecdotes in backend.
+
+## Exercise 6.15 Anecdotes and the backend, step3
+**Task:**
+Modify the initialization of Redux store to happen using asynchronous action creators, which are made possible by the Redux Thunk library.
+
+**Solution:**
+Implemented as instructed.
