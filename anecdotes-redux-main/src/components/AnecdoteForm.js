@@ -10,7 +10,7 @@ const AnecdoteForm = () => {
     event.preventDefault()
     const anecdote = event.target.anecdote.value
     dispatch(createAnecdote(anecdote))
-    dispatch(messageChange(`Anecdote "${anecdote.content}" added`))
+    dispatch(messageChange(`Anecdote "${anecdote}" added`))
     setTimeout(() => {
       dispatch(messageReset())
     }, 5000)

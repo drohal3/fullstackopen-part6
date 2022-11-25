@@ -267,3 +267,10 @@ Modify the initialization of Redux store to happen using asynchronous action cre
 
 **Solution:**
 Implemented as instructed.
+
+## Exercise 6.16 Anecdotes and the backend, step4
+**Task:**
+Also modify the creation of a new anecdote to happen using asynchronous action creators, made possible by the Redux Thunk library.
+
+**Solution:**
+Already implemented in previous exercise.
