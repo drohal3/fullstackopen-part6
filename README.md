@@ -301,3 +301,12 @@ Implement the use of this improved notification in your application.
 
 **Solution:**
 Implemented as instructed.
+
+## Exercise 6.19 anecdotes and connect, step1
+**Task:**
+The redux store is currently being accessed by the components through the useSelector and useDispatch hooks.
+
+Modify the Notification component so that it uses the connect function instead of the hooks.
+
+**Solution:**
+Implemented as instructed. Used mapSateToProps in the Notification component. No mapDispatchToProps was needed at this stage.
