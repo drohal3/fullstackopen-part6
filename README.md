@@ -274,3 +274,10 @@ Also modify the creation of a new anecdote to happen using asynchronous action c
 
 **Solution:**
 Already implemented in previous exercise.
+
+## Exercise 6.17 Anecdotes and the backend, step5
+**Task:**
+Voting does not yet save changes to the backend. Fix the situation with the help of the Redux Thunk library.
+
+**Solution:**
+Implemented as instructed.

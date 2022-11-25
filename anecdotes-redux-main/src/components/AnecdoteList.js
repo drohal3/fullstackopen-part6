@@ -10,7 +10,7 @@ const AnecdoteList = () => {
   const vote = (anecdote) => {
     const id = anecdote.id
     console.log('vote', id)
-    dispatch(voteAnecdote(id))
+    dispatch(voteAnecdote(anecdote))
     dispatch(messageChange(`You voted for "${anecdote.content}". Vote more!`))
     setTimeout(() => {
       dispatch(messageReset())
