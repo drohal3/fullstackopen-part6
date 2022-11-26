@@ -1,10 +1,6 @@
 import { connect } from 'react-redux'
 
 const Notification = (props) => {
-  // const notification = useSelector(state => {
-  //   // console.log('state', state)
-  //   return state.notification
-  // })
 
   const style = {
     border: 'solid',

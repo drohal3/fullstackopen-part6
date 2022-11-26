@@ -310,3 +310,10 @@ Modify the Notification component so that it uses the connect function instead o
 
 **Solution:**
 Implemented as instructed. Used mapSateToProps in the Notification component. No mapDispatchToProps was needed at this stage.
+
+## Exercise 6.20 anecdotes and connect, step2
+**Task:**
+Do the same for the Filter and AnecdoteForm components.
+
+**Solution:**
+Implemented as instructed. Used mapDispatchToProps.
