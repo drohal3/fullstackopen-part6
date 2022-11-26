@@ -2,7 +2,8 @@ import {createSlice} from '@reduxjs/toolkit'
 
 
 const initialState = {
-  message: null
+  message: null,
+  timeoutId: null
 }
 
 const notificationSlice = createSlice({
@@ -10,7 +11,12 @@ const notificationSlice = createSlice({
   initialState,
   reducers: { // not ideal solution, but for demonstration and practice good enough
     messageChange(state, action) {
-      return {message: action.payload}
+      clearTimeout(state.timeoutId)
+      if (state.timeoutId) {
+        console.log('cancel timeout', state.timeoutId)
+        clearTimeout(state.timeoutId)
+      }
+      return {message: action.payload.message, timeoutId: action.payload.timeoutId}
     },
     messageReset: () => {
       return {message: null}
@@ -22,10 +28,10 @@ export const { messageChange, messageReset } = notificationSlice.actions
 
 export const setNotification = (message, timeout) => {
   return dispatch => {
-    dispatch(messageChange(message))
-    setTimeout(() => {
+    const timeoutId = setTimeout(() => {
       dispatch(messageReset())
     }, timeout * 1000)
+    dispatch(messageChange({message, timeoutId}))
   }
 }
 export default notificationSlice.reducer
